@@ -119,4 +119,6 @@ if __name__ == '__main__':
         plotting()
     except KeyboardInterrupt: #Quits out on ctrl+c
         destroy()
+    finally:
+	destroy()
 # ====================================================================
