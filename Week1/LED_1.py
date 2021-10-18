@@ -1,3 +1,12 @@
+"""
+==== Prof. Kartik V. Bulusu
+==== MAE Department, SEAS GWU
+==== Description
+======== This program is for blinking an LED wired to Raspberry PI
+======== It has been written exclusively for CS1010 & APSC1001 students in GWU.
+======== It may not be used for any other purposes unless author's prior permission is aquired.
+"""
+
 import RPi.GPIO as GPIO
 import time
 

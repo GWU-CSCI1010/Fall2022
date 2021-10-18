@@ -1,3 +1,13 @@
+"""
+==== Prof. Kartik V. Bulusu
+==== MAE Department, SEAS GWU
+==== Description
+======== This program incorporates the RaspberryPi SenseHat sensors and library
+============ SenseHat documentation: https://www.raspberrypi.com/documentation/accessories/sense-hat.html
+======== It has been written exclusively for CS1010 & APSC1001 students in GWU.
+======== It may not be used for any other purposes unless author's prior permission is aquired.
+"""
+
 from sense_hat import SenseHat
 import time
 import random

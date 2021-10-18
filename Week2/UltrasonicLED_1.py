@@ -1,3 +1,12 @@
+"""
+==== Prof. Kartik V. Bulusu
+==== MAE Department, SEAS GWU
+==== Description
+======== This program incorporates an Ultrasonic Sensor
+======== It has been written exclusively for CS1010 & APSC1001 students in GWU.
+======== It may not be used for any other purposes unless author's prior permission is aquired.
+"""
+
 # IMPORT MODULES ====================================================
 
 import RPi.GPIO as GPIO
@@ -120,5 +129,5 @@ if __name__ == '__main__':
     except KeyboardInterrupt: #Quits out on ctrl+c
         destroy()
     finally:
-	destroy()
+	    destroy()
 # ====================================================================
