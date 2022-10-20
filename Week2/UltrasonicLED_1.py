@@ -3,7 +3,7 @@
 ==== MAE Department, SEAS GWU
 ==== Description
 ======== This program incorporates an Ultrasonic Sensor
-======== It has been written exclusively for CS1010 & APSC1001 students in GWU.
+======== It has been written exclusively for CS1010 students in GWU.
 ======== It may not be used for any other purposes unless author's prior permission is aquired.
 """
 
@@ -128,6 +128,4 @@ if __name__ == '__main__':
         plotting()
     except KeyboardInterrupt: #Quits out on ctrl+c
         destroy()
-    finally:
-	    destroy()
 # ====================================================================
