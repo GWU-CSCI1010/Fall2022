@@ -17,6 +17,6 @@ camera.start_preview(alpha=200)
 
 for i in range(5):
     sleep(5)
-    camera.capture('/home/pi/Desktop/Fall2021/Week5/image%s.jpg' % i)
+    camera.capture('/home/pi/Desktop/Fall2022/Week5-ImageEncrptDecrypt/image%s.jpg' % i)
     
 camera.stop_preview()
