@@ -7,7 +7,7 @@
 ======== It may not be used for any other purposes unless author's prior permission is aquired.
 """
 
-rom picamera import PiCamera
+from picamera import PiCamera
 from time import sleep
 import time
 from PIL import Image
@@ -24,7 +24,7 @@ camera.start_preview(alpha=200)
 for i in range(2):
     j = i+1
     sleep(2)
-    camera.capture('/home/pi/Desktop/Fall2021/Week5/image%s.jpg' % j)
+    camera.capture('/home/pi/Desktop/Fall2022/Week5-ImageEncrptDecrypt/image%s.jpg' % j)
     print(">>>> Image %s Captured <<<" % j)
     print('')
     
@@ -33,7 +33,7 @@ camera.stop_preview()
 # Include your SELFIE in the same folder as this file, and Replace picture1.jpeg with your own SELFIE
 # if your image is in PNG format, simply substitute .png for .jpeg -for example picture1.png
 # code reads your (color) image and converts to a grayscale image. A grayscale image is a 2-dimensional matrix
-im = Image.open("image0.jpg")
+im = Image.open("image1.jpg")
 im_gray = im.convert("L")
 # the casting is necessary for the modulo function to work correctly. it converts the 8-bit
 # pixel into a 16 bit...We can leave this discussion out for the students.
@@ -50,7 +50,7 @@ plt.imshow(pix, cmap='gray')
 # this is your key image - include this in the same folder as this file. If you have
 # another image, of the same size, that you would like to use as your key then replace
 # picture2.jpeg with your key image.
-im1 = Image.open("image1.jpg")
+im1 = Image.open("image2.jpg")
 im1_gray = im1.convert("L")
 key_image = np.array(im1_gray, dtype="int16")
 
